@@ -1,0 +1,41 @@
+/* CSS declarations go here */
+
+/* Variables */
+$green: #91f798;
+$green-alt: darken($green, 25%);
+$blue: #8adaf7;
+$blue-alt: darken($blue, 25%);
+$red: #f9a9a2;
+$red-alt: darken($red, 25%);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f2f2f2;
+  color: #555555;
+  font-family: Halvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 2.4rem;
+}
+
+@import './components/title-bar';
+@import "./components/wrapper";
+@import "./components/item";
+@import "./components/button";
+@import "./components/player";
+@import "./components/form";
